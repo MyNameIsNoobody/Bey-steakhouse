@@ -1,0 +1,19 @@
+{
+  "name": "bey-steakhouse",
+  "version": "1.0.0",
+  "description": "Admission test for a responsive web site",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyNameIsNoobody/Bey-steakhouse.git"
+  },
+  "author": "Noirot Sami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MyNameIsNoobody/Bey-steakhouse/issues"
+  },
+  "homepage": "https://github.com/MyNameIsNoobody/Bey-steakhouse#readme"
+}
