@@ -1,0 +1,108 @@
+.trailer
+{
+    position: relative;
+    z-index: -1;
+    height: 1050px;
+    margin: -111px 0;
+    video 
+    {
+        width: 100%;
+    }
+}
+
+.intro
+{
+    height: 700px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    &__text
+    {
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        > h1, > p, .intro__text__button  
+        {
+            margin: 40px 0;
+        }
+    }
+    &__picture
+    {
+        img 
+        {
+            object-fit: cover;
+            width: 550px;
+            height: 600px;
+        }
+    }
+}
+
+.menu
+{
+    display: flex;
+    justify-content: space-around;
+    &__pictures
+    {
+        display: flex;
+        margin-left: 0;
+        &__first
+        {
+            img 
+            {
+                width: 400px;
+                height: 500px;
+            }
+        }
+        &__second
+        {
+            display: flex;
+            flex-direction: column;
+            margin-left: 6px;
+            img 
+            {
+                width: 250px;
+                height: 247px;
+                object-fit: cover;
+            }
+            > img 
+            {
+                margin-bottom: 3px;
+            }
+            img + img 
+            {
+                margin-top: 3px;
+            }
+        }
+    }
+    &__text
+    {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        > h2, > p, .menu__text__button 
+        {
+            margin: 30px 0;
+        }
+    }
+}
+
+.location
+{
+    margin-top: 60px;
+    height: 500px;
+    background-color: black;
+    color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    &__info
+    {
+        width: 50%;
+        margin-right: 500px;
+    }
+    &__map
+    {
+        width: 50%;
+        margin-right: 500px;
+    }
+    
+}
