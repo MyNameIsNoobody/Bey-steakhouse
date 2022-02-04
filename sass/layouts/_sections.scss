@@ -12,6 +12,7 @@
 
 .intro
 {
+    max-width: 1600px;
     height: 700px;
     margin-top: 50px;
     display: flex;
@@ -39,6 +40,7 @@
 
 .menu
 {
+    max-width: 1600px;
     display: flex;
     justify-content: space-around;
     &__pictures
@@ -57,20 +59,13 @@
         {
             display: flex;
             flex-direction: column;
+            gap: 6px;
             margin-left: 6px;
             img 
             {
                 width: 250px;
                 height: 247px;
                 object-fit: cover;
-            }
-            > img 
-            {
-                margin-bottom: 3px;
-            }
-            img + img 
-            {
-                margin-top: 3px;
             }
         }
     }
@@ -88,21 +83,62 @@
 
 .location
 {
-    margin-top: 60px;
-    height: 500px;
+    max-width: 1307px;
+    margin: 60px auto;
+    height: 600px;
     background-color: black;
-    color: yellow;
     display: flex;
-    flex-wrap: wrap;
-    &__info
+    justify-content: center;
+    flex-wrap: wrap; 
+    &__info, &__map
     {
-        width: 50%;
-        margin-right: 500px;
+        flex-basis: 40%;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 30px;
+        background: linear-gradient(to right, $dark-gold, $dark-gold, $light-gold);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 2%;
     }
-    &__map
+    &__button
     {
-        width: 50%;
-        margin-right: 500px;
+        background: radial-gradient(circle at 50%, $dark-gold, $medium-gold, $light-gold);
+        height: fit-content;
+        padding: 0 20px;
+        cursor: pointer;
     }
-    
 }
+
+.network
+{
+    margin: 150px 0;
+    &__link
+    {
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        margin-bottom: 30px;
+        gap: 40px;
+        font-size: large;
+        a 
+        {
+            text-transform: uppercase;
+            height: fit-content;
+            align-self: center;
+            font-weight: 800;
+        }
+    }
+    &__pictures
+    {
+        display: flex;
+        justify-content: center;
+    }
+}
+

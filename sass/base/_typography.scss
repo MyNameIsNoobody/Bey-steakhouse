@@ -1,17 +1,30 @@
-@import url('http://fonts.cdnfonts.com/css/gotham');
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;900&display=swap');
+@font-face {
+    font-family: "Gotham";
+    src: url(../../brief/fonts/Gotham-Font/Gotham-Light.otf) format("opentype"),
+         url(../../brief/fonts/Gotham-Font/GothamLight.ttf) format("truetype");
+}
+
+*
+{
+    font-family: "Gotham", sans-serif;
+}
 
 p
 {
-    font-family: 'Maven Pro', sans-serif;
     font-weight: normal;
     font-size: 18px;
 }
 
-h1, h2, h3 
+h1, h2, h3
 {
-    font-family: 'Gotham Black', sans-serif;
     text-transform: uppercase;
-    font-weight: bolder;
+    font-weight: 800;
     font-size: 28px;
+}
+
+.location p, .location h3 
+{
+    font-family: "Gotham", sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
 }

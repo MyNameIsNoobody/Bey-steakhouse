@@ -22,8 +22,9 @@ header
         {
             width: 200px;
             display: flex;
+            flex-basis: content;
             list-style-type: none;
-            justify-content: space-around;
+            gap: 50px;
             a 
             {
                 cursor: pointer;

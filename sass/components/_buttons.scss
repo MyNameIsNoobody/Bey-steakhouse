@@ -6,14 +6,16 @@ $light-gold:#f1e9b2;
 {
     text-transform: uppercase;
     background: black;
-    width: fit-content;
+    width: 120px;
     padding: 5px 65px;
+    cursor: pointer;
+    border-radius: 0 0 100% 0;
     p 
     {
         background: linear-gradient(to right, $dark-gold, $dark-gold, $medium-gold, $light-gold);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-weight: bold;
-        font-size: 14px;
+        font-weight: 800;
+        font-size: 16px;
     }
 }
