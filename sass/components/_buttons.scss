@@ -5,11 +5,11 @@ $light-gold:#f1e9b2;
 .main__button
 {
     text-transform: uppercase;
+    text-align: center;
     background: black;
     width: 120px;
     padding: 5px 65px;
     cursor: pointer;
-    border-radius: 0 0 100% 0;
     p 
     {
         background: linear-gradient(to right, $dark-gold, $dark-gold, $medium-gold, $light-gold);
